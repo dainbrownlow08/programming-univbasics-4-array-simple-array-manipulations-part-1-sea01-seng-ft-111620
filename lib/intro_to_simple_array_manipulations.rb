@@ -11,7 +11,5 @@ def using_pop (array)
 end
 
 def pop_with_args(array)
-  last_element = array.pop
-  second_to_last_element = array.pop
-  return last_element, second_to_last_element
+  array.pop(2)
 end
